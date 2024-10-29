@@ -3,10 +3,11 @@
     background: linear-gradient(90deg, #00a7e1, #38b2ac);
   }
   .navbar {
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: static !important;
   }
   .navbar__logo {
     align-items: center;
